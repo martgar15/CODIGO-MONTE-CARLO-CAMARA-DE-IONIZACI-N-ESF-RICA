@@ -1,2 +1,4 @@
 # CODIGO-MONTE-CARLO-CAMARA-DE-IONIZACI-N-ESF-RICA
 En repositorio podemos encontrar el código del programa de simulación Monte Carlo desarrollado para la cámara esférica. Además, se adjuntan los archivos de la librería randomnumber empleada para generar números aleatorios. Es necesario compilar el programa y unir con randomnumber.o para crear el ejecutable.
+
+Por otra parte, se adjunta un script que permite obtener GIFTS de una única simulación de la cámaras de ionización plano paralela o cilíndrica. Para ejecutar el programa es necesario descargar todos los archivos de la carpeta SCRIPT en una carpeta y ejecutar el archivo camaraionizacion.sh en la terminal de linux empleando ./camaraionizacion.sh siendo necesario tener instalado gfortran-11 en la terminal, cosa que puede hacerse mediante el comando sudo apt install gfortran-11 en la terminal. Tambien se hace uso de gnuplot en el script. Tras elegir los parámetros debe aparecer un GIF como el que se adjunta.
