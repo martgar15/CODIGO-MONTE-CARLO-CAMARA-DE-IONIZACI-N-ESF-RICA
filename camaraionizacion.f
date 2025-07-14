@@ -1,4 +1,4 @@
-!Programa de simulación Monte Carlo de una cámara de ionización plano-paralela en 3D
+!Programa de simulación Monte Carlo de una cámara de ionización esférica 
 program camaraionizacion
 use randomnumber
 implicit none
