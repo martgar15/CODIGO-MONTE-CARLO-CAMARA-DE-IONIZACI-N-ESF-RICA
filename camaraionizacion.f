@@ -108,7 +108,7 @@ stop
 contains
 !Aquí encontramos las distintas subrutinas y funciones empleadas.
 
-!Función para calcular la distancia entre un ión negativo 0 y un ion positivo l
+!Función para calcular la distancia entre un ión negativo o y un ion positivo l
 real*8 function dist(o,l)
 	integer::o,l
 	real*8::auxx,auxy,auxz
